@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="keywords" content="card designs, card components, grid, grids, layout, flexbox, flex">
+  <meta name="description" content="Huddle landing page with alternating feature blocks">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" type="text/css" href="index.css">
+   
+  <title>Frontend Mentor | Huddle landing page with alternating feature blocks</title>
+
+</head>
+<body>
+	<header>
+		<div class="container spaceVertical spaceVertical--wider">
+			<nav class="flex flex--end">
+				<a href="./index.html" class="logo logo--small">
+					<img src="./images/logo.svg" alt="logo" />
+				</a>
+				<a href="#" class="btn btn--try btn--small">Try It Free</a>
+			</nav>
+		  
+			<div class="spaceVertical spaceVertical--wide grid">
+				<div class="spaceVertical header-content">
+					<h2 class="title title--big">Build The Community Your Fans Will Love</h2>
+					<p>
+						Huddle re-imagines the way we build communities. You have a voice, but so does your audience. 
+						Create connections with your users as you engage in genuine discussion. 
+					</p>
+					<a href="#" class="btn btn-align blocklink blocklink--block">Get Started For Free</a>
+				</div>
+				<div class="image">
+					<img src="./images/illustration-mockups.svg" alt="illustration-mockups" />
+				</div>
+			</div>
+		</div>
+	</header>
+	
+	<main class="main">
+		<div class="container spaceVertical">
+			<div class="card grid grid--alternate">
+				<div class="card__illustrator">
+					<img src="./images/illustration-grow-together.svg" alt="illustration-grow-together" />
+				</div>
+				<div class="card__writeup">
+					<h2 class="title">Grow Together</h2>
+					<p>
+						Generate meaningful discussions with your audience and build a strong, loyal community. 
+						Think of the insightful conversations you miss out on with a feedback form.
+					</p>
+				</div>
+			</div>
+			
+			<div class="card grid">
+				<div class="card__illustrator">
+					<img src="./images/illustration-flowing-conversation.svg" alt="illustration-flowing-conversation" />
+				</div>
+				<div class="card__writeup">
+					<h2 class="title">Flowing Conversations</h2>
+					<p>
+						You wouldn't paginate a conversation in real life, so why do it online? Our threads 
+						have just-in-time loading for a more natural flow.l community. 
+					</p>
+				</div>
+			</div>
+			
+			<div class="card grid grid--alternate">
+				<div class="card__illustrator">
+					<img src="./images/illustration-your-users.svg" alt="illustration-your-users" />
+				</div>
+				<div class="card__writeup">
+					<h2 class="title">Your Users</h2>
+					<p>
+						It takes no time at all to integrate Huddle with your app's authentication solution. 
+						This means, once signed in to your app, your users can start chatting immediately.
+					</p>
+				</div>
+			</div>
+			
+			<div class="card card--small card--offposition">
+				<div class="card__writeup spaceVertical">
+					<h2 class="title">Ready To Build Your Community?</h2>
+					<a href="#" class="btn btn-align blocklink blocklink--block">Get Started For Free</a>
+				</div>
+			</div>
+		</div>
+	</main>
+	<footer>
+		<div class="container spaceVertical">
+			<div class="foot-logo">
+				<a href="#" class="logo">
+					<img src="./images/footlogo.svg" alt="footer logo" />
+				</a>
+			</div>
+			<div class="spaceVertical grid grid--4c">
+				<div class="spaceVertical spaceVertical--small">
+					<div class="flex">
+						<span class="icon icon-location"><img src="./images/icon-location.svg" alt="location icon" /></span>
+						<span>
+						  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+						  incididunt ut labore et dolore magna aliqua
+						</span>
+					</div>
+					<div class="flex">
+						<span class="icon"><img src="./images/icon-phone.svg" alt="phone icon" /></span>
+						<span>
+						  +1-543-123-4567
+						</span>
+					</div>
+					<div class="flex">
+						<span class="icon"><img src="./images/icon-email.svg" alt="email icon" /> </span>
+						<span>
+							<a href="mailto:example@huddle.com">example@huddle.com</a>
+						</span>
+					</div>
+				</div>
+				
+				<div class="spaceVertical spaceVertical--small decorate">
+					<div><a href="#" >About Us</a></div>
+					<div><a href="#" > What We Do</a></div>
+					<div><a href="#" >FAQ</a></div>
+				</div>
+				
+				<div class="spaceVertical spaceVertical--small decorate">
+					<div><a href="#" >Career</a></div>
+					<div><a href="#" >Blog</a></div>
+					<div><a href="#" >Contact Us</a></div>
+				</div>
+				
+				<div class="spaceVertical spaceVertical--end flex--horizontal">
+					<div class="socialIcon flex">
+						<a href="https://www.facebook.com">
+							<span class="s-icon">
+								<i class="fa fa-facebook" aria-hidden="true"></i>
+							</span>
+						</a>
+						<a href="https://www.twitter.com">
+							<span class="s-icon">
+								<i class="fa fa-twitter" aria-hidden="true"></i>
+							</span>
+						</a>
+						<a href="https://www.instagram.com">
+							<span class="s-icon">
+								<i class="fa fa-instagram" aria-hidden="true"></i>
+							</span>
+						</a>
+					</div>
+					<div class="copy">&copy; Copyright 2018 Huddle. All rights reserved.</div>
+				</div>
+			</div>
+				
+			<p class="attribution">
+			  Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+			  Coded by <a href="#">Olisaemeka Victor</a>.
+			</p>
+		</div>
+	</footer>
+</body>
+</html>
